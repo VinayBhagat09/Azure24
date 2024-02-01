@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\WatchFunctionUnitTests\\WatchFunctionUnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\FunctionWithUnitTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\FunctionWithUnitTesting.csproj",
+        "projectName": "FunctionWithUnitTesting",
+        "projectPath": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\FunctionWithUnitTesting.csproj",
+        "packagesPath": "C:\\Users\\a835356\\.nuget\\packages\\",
+        "outputPath": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a835356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\WatchFunctionUnitTests\\WatchFunctionUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\WatchFunctionUnitTests\\WatchFunctionUnitTests.csproj",
+        "projectName": "WatchFunctionUnitTests",
+        "projectPath": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\WatchFunctionUnitTests\\WatchFunctionUnitTests.csproj",
+        "packagesPath": "C:\\Users\\a835356\\.nuget\\packages\\",
+        "outputPath": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\WatchFunctionUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a835356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\FunctionWithUnitTesting.csproj": {
+                "projectPath": "C:\\VinayAzure\\FunctionsPractice\\FunctionWithUnitTesting\\FunctionWithUnitTesting\\FunctionWithUnitTesting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
